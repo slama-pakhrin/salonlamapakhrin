@@ -3,6 +3,13 @@
     src: url('./assets/fonts/sohne.woff2') format('woff2'), /* Modern Browsers */
   }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+@font-face {
+    font-family: 'heldane';
+    src: url('/assets/fonts/HeldaneTextRegular.woff');
+}
+
 .body{
     background-color: #787777;
 }
@@ -110,4 +117,35 @@
 
 .hamburger-links li .email:hover{
     background-color: #383838 !important;
+}
+
+#info{
+    margin: 50px 100px 10px 100px;
+    padding: 50px;
+}
+
+.my-role{
+    font-family: 'Roboto', sans-serif;
+    color: #888;
+    font-weight: 400;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.my-role p{
+    margin: 4px 4px 0px 4px;
+}
+
+.my-pitch p{
+    margin-top: 15px;
+    font-family: 'heldane', sans-serif;
+    font-size: 3.6rem;
+    font-weight: 300;
+    font-stretch:narrower;
+    letter-spacing: -3px;
+    line-height: 1.5;
+}
+
+.my-pitch .highlight-words{
+    background-color: #e7f097;
+    border-radius: 100px;
 }
