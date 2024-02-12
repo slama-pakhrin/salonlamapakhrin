@@ -46,13 +46,56 @@
     /* background-color: ; */
 }
 
-.main-area h4{
-    font-family: 'sohne', sans-serif;
-    color: black;
+.hamburger{
+    display: none;
 }
 
-.main-area h3{
-    font-family: 'sohne', sans-serif;
+.hamburger-menu .hamburger-menu-icon{
+    height: 20px;
+    width: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 10px 20px 0 10px;
+    cursor: pointer;
+}
+
+.hamburger-menu .hamburger-menu-icon span{
+    height: 2px;
+    background-color: black;
+}
+
+.hamburger-menu .hamburger-menu-icon .first-dash{
+    width: 16px;
+}
+.hamburger-menu .hamburger-menu-icon .last-dash{
+    background-color: black;
+    margin-left: 12px;
+}
+
+.hamburger-logo{
+    margin-left: 20px;
+}
+
+.hamburger-links{
+    background-color: red;
+    height: 200px;
+ 
+ 
+}
+
+.hamburger-links ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    
+}
+
+.hamburger-links li a{
+    text-decoration: none;
+    list-style: none;
+    margin: 50px;
+    background-color: green;
     color: #888;
-    font-weight: 400;
+    padding: 10px;
 }
