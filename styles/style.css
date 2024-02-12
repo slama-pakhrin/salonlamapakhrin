@@ -122,6 +122,8 @@
 #info{
     margin: 50px 100px 10px 100px;
     padding: 50px;
+    overflow-x: hidden;
+    margin: auto;
 }
 
 .my-role{
@@ -130,9 +132,10 @@
     font-weight: 400;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    padding-right: 0px;
 }
 .my-role p{
-    margin: 4px 4px 0px 4px;
+    margin: 4px 4px 0px 4px;    
 }
 
 .my-pitch p{
@@ -143,9 +146,51 @@
     font-stretch:narrower;
     letter-spacing: -3px;
     line-height: 1.5;
+    margin-right: auto;
 }
 
 .my-pitch .highlight-words{
     background-color: #e7f097;
     border-radius: 100px;
 }
+
+.arrow-down{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 0 auto;
+    animation: upDown .8s infinite alternate;
+}
+
+@keyframes upDown {
+    0%{
+        margin-top: 0px;
+    }
+    100%{
+        margin-top: 30px;
+    }
+}
+
+.arrow-down span{
+    border: 1px solid #787777;
+    text-align: center;
+}
+
+.arrow-down span:first-child{
+    margin-top: 50%;
+    transform: rotate(-45deg) translate(2.5px, 11px);
+}
+.arrow-down span:nth-child(2){
+    margin-top: 40%;
+}
+.arrow-down span:last-child{
+    margin-top: 50%;
+    transform: rotate(45deg) translate(-2.5px, 11px);
+}
+
+.arrow-down:hover span{
+    border: 1px solid black;
+}
+

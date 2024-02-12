@@ -1,4 +1,4 @@
-@media screen and (max-width: 500px){
+@media screen and (max-width: 580px){
     .navbar{
         display: none;
     }
@@ -6,10 +6,50 @@
     .hamburger{
         display: flex;
         justify-content: space-between;
+        margin-bottom: 0px;
     }
 
     .hamburger-links.open{
         display: block;
     }
-   
+    
+    #info{
+        margin: 0px 10px 12px 10px !important;
+        padding-top: 20px;
+    }
+    .my-role{
+        font-size: .85rem;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    #info{
+        margin: 50px 100px 10px 50px;
+    }
+}
+
+@media screen and (min-width: 1001px){
+
+    #info{
+        margin: 30px 10px 10px 170px;
+    }
+    
+    .my-pitch p{
+        font-size: 4.3rem;
+    }
+}
+
+@media screen and (max-width: 825px){
+    #info{
+        margin: 50px 0px 10px 20px;
+    }
+}
+
+@media screen and (max-width: 760px){
+    #info{
+        margin: 50px 10px 10px 10px;
+    }
+    .my-pitch p{
+        font-size: 3rem;
+    }
 }
