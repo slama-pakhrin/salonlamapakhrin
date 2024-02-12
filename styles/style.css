@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'sohne';
+    src: url('./assets/fonts/sohne.woff2') format('woff2'), /* Modern Browsers */
+  }
+
+.body{
+    background-color: #fff;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'sohne', sans-serif;
+    font-size: smaller;
+    position: sticky;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+.navbar .navbar-links a{
+    text-decoration: none;
+    color: #888;  
+    margin: 10px;
+    margin-right: 25px;
+    padding: 10px 20px 10px 20px;
+    font-size: .8rem;
+    
+}
+
+.navbar .navbar-links a:hover{
+    color: black;
+}
+
+.navbar .navbar-links .email:hover{
+    background-color: #383838 !important;
+}
+
+.navbar .navbar-logo{
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar .navbar-logo:hover{
+    /* background-color: ; */
+}
+
+.main-area h4{
+    font-family: 'sohne', sans-serif;
+    color: black;
+}
+
+.main-area h3{
+    font-family: 'sohne', sans-serif;
+    color: #888;
+    font-weight: 400;
+}
