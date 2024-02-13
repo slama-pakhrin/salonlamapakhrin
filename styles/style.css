@@ -234,14 +234,12 @@ box sizing: border-box */
     font-weight: 500;
     line-height: .5;
     letter-spacing: -.5px;
-    padding-left: 10px;
     color: #242424;
 }
 
 .project-item .project-description{
     font-family: 'sohne', sans-serif;
     color: #787777;
-    line-height: 0;
     font-size: 1.1rem;
-    padding-left: 10px;
+    margin-top: -10px;
 }

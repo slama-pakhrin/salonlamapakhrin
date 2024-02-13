@@ -53,3 +53,10 @@
         font-size: 3rem;
     }
 }
+/* 
+@media screen and (max-width: 1050px){
+    .project-item{
+        flex: 1 0 100%; 
+        box-sizing: border-box;
+    }
+} */
