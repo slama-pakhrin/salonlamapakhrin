@@ -8,7 +8,7 @@ function dropdown(){
 //     project.classList.toggle("open")
 // }
 
-var scrollView = document.getElementById('clickforProject')
+var scrollView = document.getElementById("clickforProject")
 scrollView.addEventListener('click', function (event){
     event.preventDefault()
 
@@ -24,6 +24,26 @@ downView.addEventListener('click', function(event){
 
     var targetedView = document.getElementById('project-section')
     targetedView.scrollIntoView({
+        behavior: "smooth"
+    })
+})
+
+var upView = document.getElementById('navbar-logo')
+upView.addEventListener('click', function(event){
+    event.preventDefault()
+
+    var myPageTarget = document.getElementById('info')
+    myPageTarget.scrollIntoView({
+        behavior: "smooth"
+    })
+})
+
+var scrollDownHam = document.getElementById('clickforProjectHam')
+scrollDownHam.addEventListener('click', function(event){
+    event.preventDefault()
+
+    var leadTo = document.getElementById('project-section')
+    leadTo.scrollIntoView({
         behavior: "smooth"
     })
 })
