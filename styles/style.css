@@ -120,7 +120,7 @@
 }
 
 #info{
-    margin: 100px 100px 10px 100px;
+    margin: 100px 100px 0px 100px;
     padding-top: 100px;
     padding-left: 50px;
     overflow-x: hidden;
@@ -166,10 +166,10 @@
 
 @keyframes upDownArrow {
     0%{
-        transform: translateY(0);
+        transform: translateY(50px);
     }
     100%{
-        transform: translateY(20px);
+        transform: translateY(65px);
     }
 }
 
