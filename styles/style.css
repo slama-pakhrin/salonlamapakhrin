@@ -170,7 +170,7 @@
         transform: translateY(0);
     }
     100%{
-        transform: translateY(30px);
+        transform: translateY(20px);
     }
 }
 
@@ -198,6 +198,8 @@
 
 #project-section{
     margin: 200px 30px 0px 30px;
+    padding-bottom: 100px;
+    border-bottom: .5px solid #888;
 }
 
 .project-heading{
@@ -217,6 +219,7 @@
     padding-bottom: 40px;
     flex: 1 0 50%; 
     box-sizing: border-box;
+    overflow: hidden;
 }
 /* flex : flex basis flex shrink and size it occupies
 flex basis is how much space in the line shrink to how much in case 
@@ -226,6 +229,7 @@ box sizing: border-box */
 .project-item img{
     max-width: 100%;
     height: auto;
+    display: block;
 }
 
 .project-item .project-title{
@@ -242,4 +246,16 @@ box sizing: border-box */
     color: #787777;
     font-size: 1.1rem;
     margin-top: -10px;
+}
+
+.project-item img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    padding: 0px;
+}
+
+.project-image{
+    overflow: hidden;
+    background-color: yellow;
+    margin-bottom: 0px;
 }

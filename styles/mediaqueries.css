@@ -62,4 +62,8 @@
     #project-section{
         margin: 200px 10px 0px 10px;
     }
+    .project-item .project-title{
+        line-height: 1;
+    }
 }
+
