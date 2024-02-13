@@ -24,14 +24,16 @@
     .footer{
         display:flex;
         flex-wrap: wrap;
-        height: 35vh;
-        margin-bottom: 80px;
+        height: 50vh;
+        margin-bottom: 0px;
         padding-right: 0px;
+        margin-top: 50px;
     }
-
+    
     .footer .info-footer{
         margin-left: 0px;
         padding-top: 0px;
+        margin-bottom: -100px;
     }
 
     .footer .email-footer{
@@ -39,7 +41,7 @@
     }
 
     .icons-socials{
-        margin-bottom: -50px;
+        padding-bottom: 0px;
     }
 }
 

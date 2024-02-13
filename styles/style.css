@@ -263,10 +263,10 @@ box sizing: border-box */
 }
 
 .footer{
-    margin: 120px 10px 200px 20px;
+    margin: 120px 10px 125px 20px;
     display: flex;
     overflow: hidden;
-    height: 300px;
+    height: 285px;
 }
 
 .footer .info-footer{
