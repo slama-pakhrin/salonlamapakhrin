@@ -10,17 +10,17 @@
     src: url('/assets/fonts/HeldaneTextRegular.woff');
 }
 
-.body{
-    background-color: #787777;
-}
-
 .navbar{
     display: flex;
     justify-content: space-between;
     font-family: 'sohne', sans-serif;
     font-size: smaller;
-    position: sticky;
-    
+    position: fixed;
+    width: 100%;
+    background-color: #f5f3f2;
+    top: 0;
+    padding-top: 20px;
+    z-index: 1000;
 }
 
 .navbar ul{
@@ -120,10 +120,10 @@
 }
 
 #info{
-    margin: 50px 100px 10px 100px;
-    padding: 50px;
+    margin: 100px 100px 10px 100px;
+    padding-top: 100px;
+    padding-left: 50px;
     overflow-x: hidden;
-    margin: auto;
 }
 
 .my-role{
@@ -154,7 +154,7 @@
     border-radius: 100px;
 }
 
-.arrow-down{
+#arrow-down{
     height: 30px;
     width: 30px;
     display: flex;
@@ -174,31 +174,33 @@
 }
 
 
-.arrow-down span{
+#arrow-down span{
     border: 1px solid #787777;
     text-align: center;
 }
 
-.arrow-down span:first-child{
+#arrow-down span:first-child{
     margin-top: 50%;
     transform: rotate(-45deg) translate(2.5px, 11px);
 }
-.arrow-down span:nth-child(2){
+#arrow-down span:nth-child(2){
     margin-top: 40%;
 }
-.arrow-down span:last-child{
+#arrow-down span:last-child{
     margin-top: 50%;
     transform: rotate(45deg) translate(-2.5px, 11px);
 }
 
-.arrow-down:hover span{
+#arrow-down:hover span{
     border: 1px solid black;
 }
 
 #project-section{
     margin: 200px 30px 0px 30px;
+    padding-top: 100px;
     padding-bottom: 100px;
     border-bottom: .5px solid #888;
+    transition: transform  ease;
 }
 
 .project-heading{
@@ -211,6 +213,7 @@
 .project-view{
     display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .project-item{
@@ -229,6 +232,7 @@ box sizing: border-box */
     max-width: 100%;
     height: auto;
     display: block;
+    overflow: hidden;
 }
 
 .project-item .project-title{
@@ -282,6 +286,7 @@ box sizing: border-box */
     color: #787777;
     margin: 10px 10px 10px 4px;
     padding: 5px;
+    font-size: 1.5rem;
 }
 
 .email-footer{
@@ -316,4 +321,8 @@ box sizing: border-box */
 }
 .email-footer a:hover{
     background-color: #383838 !important;
+}
+
+.icons-socials a i:hover{
+    border: 1.4px solid black !important;
 }

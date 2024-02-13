@@ -9,13 +9,12 @@
     <link rel="stylesheet" href="./styles/mediaqueries.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
-<body>
-    <br>
+<body style="background-color: #f5f3f2;">
     <nav class="navbar">
         <div class="navbar-logo"><a href="#"><img src="./assets/img/Nepal-logo.png" alt="Logo" height="40" width="50"></a></div>
         <div class="navbar-links">
             <ul>
-                <li><a href="">WORK</a></li>
+                <li><a href="#project-section" id="clickforProject">WORK</a></li>
                 <li> <a href="">ABOUT</a></li>
                 <li> <a href="">RESUME</a></li>
                 <li><a href="" style="background-color: #151515; color: white" class="email">EMAIL</a></li>
@@ -36,7 +35,7 @@
         </div>
         <div class="hamburger-links">
             <ul>
-                <li><a href="">WORK</a></li>
+                <li><a href="#project-section" id="clickforProject">WORK</a></li>
                 <li> <a href="">ABOUT</a></li>
                 <li> <a href="">RESUME</a></li>
                 <li><a href="" style="background-color: #151515; color: white" class="email">EMAIL</a></li>
@@ -52,12 +51,14 @@
             <p>Through the alchemy of<br> <span class="highlight-words">code</span>, I mold ethereal <span class="highlight-words">ideas</span><br> into tangible <span class="highlight-words">reality</span></p>
         </div>
     </div>
-    
-        <div class="arrow-down" onclick="window.location.href = '#project-section';">
+        
+        <!-- <div class="arrow-down" onclick="window.location.href = '#project-section';"> -->
+            <a href="#project-section" id="arrow-down">
             <span></span>
             <span></span>
             <span></span>
-        </div>
+        </a>
+        <!-- </div> -->
     
 
     <div id="project-section">
@@ -101,9 +102,9 @@
             <p style="color:black">Salon Lama Pakhrin (Arii)</p>
             <p>Software Developer</p>
             <div class="icons-socials">
-                <i class="fa-brands fa-linkedin" style="border: .5px solid #787777; padding: 8px;" ></i>
-                <i class="fa-brands fa-x-twitter" style="border: .5px solid #787777; padding: 8px;"></i>
-                <i class="fa-brands fa-github" style="border: .5px solid #787777; padding: 8px;"></i>    
+                <a href="https://www.linkedin.com/in/slama-pakhrin/"><i class="fa-brands fa-linkedin" style="border: 1px solid #e1e1e1; padding: 8px;" ></i></a>
+                <a href="https://twitter.com/?lang=en-ca"><i class="fa-brands fa-x-twitter" style="border: .5px solid #e1e1e1; padding: 8px;"></i></a>
+                <a href="https://github.com/slama-pakhrin/"><i class="fa-brands fa-github" style="border: .5px solid #e1e1e1; padding: 8px;"></i></a>    
             </div>
         </div>
         <div class="email-footer">
