@@ -197,7 +197,7 @@
 }
 
 #project-section{
-    margin: 200px 80px 0px 80px;
+    margin: 200px 30px 0px 30px;
 }
 
 .project-heading{
@@ -213,7 +213,7 @@
 }
 
 .project-item{
-    padding-right: 20px;
+    padding-right: 10px;
     padding-bottom: 40px;
     flex: 1 0 50%; 
     box-sizing: border-box;
