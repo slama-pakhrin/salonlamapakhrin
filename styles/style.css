@@ -213,10 +213,9 @@
 }
 
 .project-item{
-    flex: 1;
-    height: 300px;
-    width: 100px;
-    margin: 20px;
+    padding: 20px;
+    flex: 1 0 50%;
+    box-sizing: border-box;
 }
 
 .project-item img{
