@@ -256,6 +256,36 @@ box sizing: border-box */
 
 .project-image{
     overflow: hidden;
-    background-color: yellow;
     margin-bottom: 0px;
+}
+
+.footer{
+    background-color: red;
+    margin-left: 30px;
+    margin-top: 100px;
+    display: flex;
+}
+
+.footer .info-footer{
+    font-family: 'Roboto', sans-serif;
+    color: #888;
+    font-weight: 400;
+    background-color: green;
+    flex: 1 0 40%;
+}
+
+.info-footer p{
+    margin: 4px 4px 0px 4px;    
+}
+
+.icons-socials i{
+    color: #787777;
+    margin: 10px 10px 100px 4px;
+    padding: 5px;
+}
+
+.email-footer{
+    background-color: blue;
+    height: auto;
+    flex: 1 0 60%;
 }
