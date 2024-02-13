@@ -213,12 +213,35 @@
 }
 
 .project-item{
-    padding: 20px;
-    flex: 1 0 50%;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    flex: 1 0 50%; 
     box-sizing: border-box;
 }
+/* flex : flex basis flex shrink and size it occupies
+flex basis is how much space in the line shrink to how much in case 
+less space available and 50% for 2 columns 30% for 3 
+box sizing: border-box */
 
 .project-item img{
     max-width: 100%;
     height: auto;
+}
+
+.project-item .project-title{
+    font-family: 'heldane', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: .5;
+    letter-spacing: -.5px;
+    padding-left: 10px;
+    color: #242424;
+}
+
+.project-item .project-description{
+    font-family: 'sohne', sans-serif;
+    color: #787777;
+    line-height: 0;
+    font-size: 1.1rem;
+    padding-left: 10px;
 }
