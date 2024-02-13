@@ -34,7 +34,6 @@
     margin-right: 25px;
     padding: 12px 20px 12px 20px;
     font-size: .8rem;
-    
 }
 
 .navbar .navbar-links a:hover{
@@ -260,9 +259,7 @@ box sizing: border-box */
 }
 
 .footer{
-    background-color: red;
-    margin-left: 30px;
-    margin-top: 100px;
+    margin: 120px 10px 200px 20px;
     display: flex;
 }
 
@@ -270,8 +267,9 @@ box sizing: border-box */
     font-family: 'Roboto', sans-serif;
     color: #888;
     font-weight: 400;
-    background-color: green;
-    flex: 1 0 40%;
+    flex: 1 0 30%;
+    margin-left: 50px;
+    padding-top: 40px;
 }
 
 .info-footer p{
@@ -280,12 +278,39 @@ box sizing: border-box */
 
 .icons-socials i{
     color: #787777;
-    margin: 10px 10px 100px 4px;
+    margin: 10px 10px 10px 4px;
     padding: 5px;
 }
 
 .email-footer{
-    background-color: blue;
     height: auto;
-    flex: 1 0 60%;
+    flex: 1 0 70%;
+}
+
+.email-footer p{
+        margin-top: 15px;
+        font-family: 'heldane', sans-serif;
+        font-size: 3.6rem;
+        font-weight: 300;
+        font-stretch:narrower;
+        letter-spacing: -3px;
+        line-height: 1.5;
+        margin-right: auto;    
+}
+
+.email-footer .highlight-words{
+    background-color: #e7f097;
+    border-radius: 100px;
+}
+
+.email-footer a{
+    text-decoration: none;
+    color: #888;  
+    margin: 10px;
+    margin-right: 25px;
+    padding: 16px 24px 16px 24px;
+    font-size: 1.2rem;
+}
+.email-footer a:hover{
+    background-color: #383838 !important;
 }
