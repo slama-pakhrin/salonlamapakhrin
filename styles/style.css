@@ -261,13 +261,15 @@ box sizing: border-box */
 .footer{
     margin: 120px 10px 200px 20px;
     display: flex;
+    overflow: hidden;
+    height: 300px;
 }
 
 .footer .info-footer{
     font-family: 'Roboto', sans-serif;
     color: #888;
     font-weight: 400;
-    flex: 1 0 30%;
+    flex: 1 0 32%;
     margin-left: 50px;
     padding-top: 40px;
 }
@@ -284,7 +286,9 @@ box sizing: border-box */
 
 .email-footer{
     height: auto;
-    flex: 1 0 70%;
+    flex: 1 0 68%;
+    margin-right: 100px;
+    padding-right: 10px;
 }
 
 .email-footer p{
@@ -295,7 +299,7 @@ box sizing: border-box */
         font-stretch:narrower;
         letter-spacing: -3px;
         line-height: 1.5;
-        margin-right: auto;    
+        padding-right: 0px;
 }
 
 .email-footer .highlight-words{
@@ -306,8 +310,7 @@ box sizing: border-box */
 .email-footer a{
     text-decoration: none;
     color: #888;  
-    margin: 10px;
-    margin-right: 25px;
+    margin: 0px 25px 10px 10px;
     padding: 16px 24px 16px 24px;
     font-size: 1.2rem;
 }
