@@ -54,9 +54,10 @@
 @media screen and (min-width: 1001px){
 
     #info{
-        margin: 30px 10px 10px 170px;
+        margin: 30px 100px -10px 180px;
+        padding-top: 180px;
     }
-    
+
     .my-pitch p{
         font-size: 4.3rem;
     }
