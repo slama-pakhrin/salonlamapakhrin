@@ -118,7 +118,8 @@
     #about-me img{ 
         max-height: 40em;
         max-width: 100%;
-    }   
+        padding: 1px;
+    }  
 }
 
 @media screen and (min-width: 500px){
@@ -130,3 +131,13 @@
     }   
 }
 
+@media screen and (min-width: 730px){
+    
+#about-me{
+    max-width: 65em;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+}

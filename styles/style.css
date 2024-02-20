@@ -333,6 +333,7 @@ box sizing: border-box */
     max-width: 65em;
     display: flex;
     margin: 0 auto;
+    padding-top: 100px;
 }
 
 #about-me-info{
@@ -342,7 +343,6 @@ box sizing: border-box */
     flex-direction: column;
     max-height: 100%;
     flex:1 0 35%;
-    background-color: red;
     padding: 50px;
 }
 
@@ -367,7 +367,9 @@ box sizing: border-box */
     font-size: large;
     margin-top: 30px;
 }
-
+#about-me-img{
+    flex: 1 0 50%;
+}
 
 #about-me-img img{
 
