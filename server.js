@@ -47,3 +47,13 @@ scrollDownHam.addEventListener('click', function(event){
         behavior: "smooth"
     })
 })
+
+//for the about section to get into work section of index file smoothly
+// document.getElementsByClassName('for-work').addEventListener('click', function(event){
+//     event.preventDefault()
+   
+//     // setTimeout(() => {
+//     //     window.location = event.target.href;
+//     // }, 1);
+
+// })
