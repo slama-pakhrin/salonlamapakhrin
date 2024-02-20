@@ -109,3 +109,24 @@
         font-size: .8rem;
     }
 }
+
+@media screen and (min-width: 320px){
+    #about-me{
+        padding-top: 30px;
+        flex-wrap: wrap;
+    }
+    #about-me img{ 
+        max-height: 40em;
+        max-width: 100%;
+    }   
+}
+
+@media screen and (min-width: 500px){
+    #about-me{
+        margin: 30px;
+    }
+    #about-me img{ 
+       width: 100vh;
+    }   
+}
+

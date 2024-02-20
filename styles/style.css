@@ -328,3 +328,49 @@ box sizing: border-box */
 .icons-socials a i:hover{
     border: 1.4px solid black !important;
 }
+
+#about-me{
+    max-width: 65em;
+    display: flex;
+    margin: 0 auto;
+}
+
+#about-me-info{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    flex:1 0 35%;
+    background-color: red;
+    padding: 50px;
+}
+
+#about-me-info-name{
+        margin-top: 15px;
+        font-family: 'heldane', sans-serif;
+        font-size: 2.6rem;
+        font-weight: 300;
+        font-stretch:narrower;
+        letter-spacing: -2px;
+        line-height: 1.5;
+}
+
+#just-name{
+    background-color: #e7f097;
+    border-radius: 80px;
+}
+
+#about-me-info p{
+    font-family: 'Roboto', sans-serif;
+    color: #888;
+    font-size: large;
+    margin-top: 30px;
+}
+
+
+#about-me-img img{
+
+    min-width: 100%;
+    max-height: 70rem;
+}
