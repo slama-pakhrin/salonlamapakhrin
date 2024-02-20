@@ -128,16 +128,19 @@
     }
     #about-me img{ 
        width: 100vh;
+       height: 100%;
+       margin-top: 30px;
     }   
 }
 
 @media screen and (min-width: 730px){
     
 #about-me{
-    max-width: 65em;
+    max-width: 70em;
     display: flex;
     margin: 0 auto;
     padding-top: 100px;
+    justify-content: space-between;
 }
 
 }
